@@ -1,0 +1,47 @@
+.footer {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer ul {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.footer ul li a {
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.footer p {
+  color: whitesmoke;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 14px;
+  max-inline-size: 75ch;
+  line-height: 2rem;
+  display: block;
+  outline-offset: 2px;
+}
+
+.footer p a {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+.footer a:hover {
+  text-decoration: underline 2px;
+}
